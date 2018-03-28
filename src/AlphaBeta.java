@@ -2,7 +2,7 @@ import java.util.*;
 public class AlphaBeta {
 	public static final int MAX = -1000, MIN = -1000;
 	public int MAX_DEPTH = 100;        // After multiple tests it appears 
-									   // a maximum depth search of 2 results in an unbeatable AI
+					   // a maximum depth search of 3 results in an unbeatable AI
 	public String choice; // choose how to score our moves
 	
 	public AlphaBeta(){
