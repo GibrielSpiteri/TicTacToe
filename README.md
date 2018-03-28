@@ -1,5 +1,7 @@
 # TicTacToe
 
+VIEW IN RAW TEXT FORM
+
 This is an Object Oriented Tic Tac Toe game that pits a human versus an AI player.
 The AI uses the Minimax Algortihm with Alpha Beta Pruning to evaluate the board and decide upon the best move.
 
