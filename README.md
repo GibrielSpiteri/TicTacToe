@@ -15,7 +15,7 @@ evaluate() checks the eight possible winning lines/diagonals and awards points f
 If the AI has one space occupied in a winning line it recieves 1 point, for two owned spaces it recieves 10 points, and for 3 owned spaces it recieves 100 points. For any spaces owned by the player a negative score is given. If there are empty spaces no points are awarded and if win is blocked by the player, and vice versa, a score of 0 is returned.
 The scores for each line are then added together and the algorithm chooses the move that awards the highest/lowest amount of points, dependent on its maximize and minimize cycle.
 
-From my experimentation it appears when using this scoring system and maximum depth from 1 to 3 results in an unbeatable AI. However, I do notice there is slight problem with the system where the AI will delay a win if it can choose a space that gives it another winning move. Here is one such example:
+From my experimentation it appears when using this scoring system and maximum depth from 1 to 3 results in an unbeatable AI. However, I do notice there is slight problem with the system where the AI will delay a win if it can choose a space that gives it another winning move, when the depth is 2 or less. Here is one such example:
 The computers best value was 1 and moved to [2, 2]
    |   |   
 -----------
